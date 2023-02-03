@@ -28,5 +28,8 @@ export default defineConfig({
       },
     },
     plugins: [react()],
+    define: {
+      'process.platform': JSON.stringify(process.platform),
+    },
   },
 })

@@ -12,6 +12,8 @@ function createWindow(): void {
       ? { icon: path.join(__dirname, '../../build/icon.png') }
       : {}),
     backgroundColor: '#17141F',
+    titleBarStyle: 'hiddenInset',
+    trafficLightPosition: { x: 20, y: 20 },
     webPreferences: {
       preload: path.join(__dirname, '../preload/index.js'),
       sandbox: false,
