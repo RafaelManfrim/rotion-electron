@@ -1,3 +1,4 @@
+import { Editor } from '../components/Editor'
 import { ToC } from '../components/ToC'
 
 export function Document() {
@@ -18,7 +19,7 @@ export function Document() {
       </aside>
 
       <section className="flex flex-col items-center">
-        <h1 className="text-4xl font-bold">Document</h1>
+        <Editor />
       </section>
     </main>
   )
