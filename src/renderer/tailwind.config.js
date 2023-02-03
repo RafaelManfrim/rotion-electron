@@ -23,6 +23,23 @@ module.exports = {
           900: '#17141F',
         },
       },
+
+      keyframes: {
+        slideIn: {
+          from: { width: 0 },
+          to: { width: 'var(--radix-collapsible-content-width)' },
+        },
+
+        slideOut: {
+          from: { width: 'var(--radix-collapsible-content-width)' },
+          to: { width: 0 },
+        },
+      },
+
+      animation: {
+        slideIn: 'slideIn 0.2s',
+        slideOut: 'slideOut 0.2s',
+      },
     },
   },
   plugins: [
