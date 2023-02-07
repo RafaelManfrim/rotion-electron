@@ -3,7 +3,7 @@ export const IPC = {
     FETCH_ALL: 'documents:fetch-all',
     FETCH_ONE: 'documents:fetch-one',
     CREATE: 'documents:create',
-    UPDATE: 'documents:update',
+    SAVE: 'documents:save',
     DELETE: 'documents:delete',
   },
 }
